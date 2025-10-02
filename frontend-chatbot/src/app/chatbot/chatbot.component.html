@@ -1,0 +1,24 @@
+<!-- src/app/chatbot/chatbot.component.html -->
+<div class="chat-container">
+  <div class="chat-header">
+    <h3>💬 Assistant de Rapports</h3>
+  </div>
+
+  <div class="messages" #messagesContainer>
+    @for (msg of messages; track msg.text) {
+      <div [class]="'message ' + msg.sender">
+        <p>{{ msg.text }}</p>
+      </div>
+    }
+  </div>
+
+  <div class="input-area">
+    <textarea
+      [(ngModel)]="userInput"
+      (keydown)="onKeyEnter($event)"
+      placeholder="Posez une question sur votre rapport..."
+      rows="1"
+    ></textarea>
+    <button (click)="sendMessage()">Envoyer</button>
+  </div>
+</div>
