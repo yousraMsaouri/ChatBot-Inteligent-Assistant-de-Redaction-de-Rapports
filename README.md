@@ -120,14 +120,16 @@ DATABASE_URL=sqlite:///./chatbot.db
 
 # 📂 Prérequis
 Avant de lancer le projet, assure-toi d'avoir :
+|-------|-------------|
+| Python 3.9+ |
+| Node.js & npm |
+| Angular CLI : npm install -g @angular/cli |
+| Docker (pour Redis) : docker run --name redis-chatbot -p 6379:6379 -d redis |
+| Clé API Gemini (obtenir ici ) |
+| Compte SendGrid (s'inscrire ici ) |
+| Compte Twilio (s'inscrire ici ) |
+---
 
-Python 3.9+
-Node.js & npm
-Angular CLI : npm install -g @angular/cli
-Docker (pour Redis) : docker run --name redis-chatbot -p 6379:6379 -d redis
-Clé API Gemini (obtenir ici )
-Compte SendGrid (s'inscrire ici )
-Compte Twilio (s'inscrire ici )
 🧪 Exemple d'utilisation
 Dans le chatbot, écris :
 ```bash
