@@ -61,6 +61,7 @@ Frontend (Angular) ↔ Backend (FastAPI) ↔ IA (Gemini) + Tâches différées (
 ---
 
 ## 📦 Structure du projet
+```bash
 ChatBot-Inteligent-Assistant-de-Redaction-de-Rapports/
 ├── chatboot-project/ # Backend (FastAPI)
 │ ├── backend/
@@ -82,7 +83,7 @@ ChatBot-Inteligent-Assistant-de-Redaction-de-Rapports/
 │ └── angular.json
 │
 └── README.md # Ce fichier
-
+```
 ---
 
 ## ▶️ Lancer le projet
