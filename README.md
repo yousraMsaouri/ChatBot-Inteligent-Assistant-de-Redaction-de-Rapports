@@ -120,6 +120,7 @@ DATABASE_URL=sqlite:///./chatbot.db
 
 # 📂 Prérequis
 Avant de lancer le projet, assure-toi d'avoir :
+```bash
 |-------|-------------|
 | Python 3.9+ |
 | Node.js & npm |
@@ -129,8 +130,9 @@ Avant de lancer le projet, assure-toi d'avoir :
 | Compte SendGrid (s'inscrire ici ) |
 | Compte Twilio (s'inscrire ici ) |
 ---
+```
 
-🧪 Exemple d'utilisation
+# 🧪 Exemple d'utilisation
 Dans le chatbot, écris :
 ```bash
 "Crée un nouveau rapport intitulé : L'économie verte au Maroc" 
